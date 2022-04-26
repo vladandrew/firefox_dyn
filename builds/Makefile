@@ -1,2 +1,4 @@
+prepare:
+	cd .. && ./mach --no-interactive bootstrap
 build:
-	cd .. && ./mach --no-interactive bootstrap && ./mach build
+	cd .. && ./mach build
